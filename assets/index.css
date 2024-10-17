@@ -1,10 +1,32 @@
+body{font-family:'Noto Sans Mono' ;
+text-align: center;}
+
 header {
     background-color: brown;
-    font-family: 'Noto Sans Mono';
+    
     padding:4em;
     text-align: center;
 }
 
+
+
 h1{
     font-size: 30px;
 }
+
+
+
+#tombola{margin-top: 3em;}
+.number {
+    display: inline-block;
+    width: 7%;
+    height: 40px;
+    position: relative;
+    border: 1px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+    padding:2em;
+    font-size: 25px;
+    font-weight: 700;
+  }
