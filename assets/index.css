@@ -1,0 +1,10 @@
+header {
+    background-color: brown;
+    font-family: 'Noto Sans Mono';
+    padding:4em;
+    text-align: center;
+}
+
+h1{
+    font-size: 30px;
+}
