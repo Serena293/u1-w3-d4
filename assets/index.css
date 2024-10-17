@@ -1,32 +1,45 @@
-body{font-family:'Noto Sans Mono' ;
-text-align: center;}
+body {
+  font-family: "Noto Sans Mono";
+  text-align: center;
+}
 
 header {
-    background-color: brown;
-    
-    padding:4em;
-    text-align: center;
+  background-color: brown;
+
+  padding: 4em;
+  text-align: center;
 }
 
-
-
-h1{
-    font-size: 30px;
+h1 {
+  font-size: 30px;
 }
 
-
-
-#tombola{margin-top: 3em;}
+#tombola {
+  margin-top: 3em;
+}
 .number {
-    display: inline-block;
-    width: 7%;
-    height: 40px;
-    position: relative;
-    border: 1px solid black;
-    border-radius: 8px;
-    cursor: pointer;
-    text-align: center;
-    padding:2em;
-    font-size: 25px;
-    font-weight: 700;
-  }
+  display: inline-block;
+  width: 3%;
+  height: 10px;
+  position: relative;
+  border: 1px solid black;
+  border-radius: 8px;
+  cursor: pointer;
+  text-align: center;
+  padding: 2em;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+#selectNumber{
+    margin-top: 2em;
+}
+
+#selectNumberBtn{ margin-top: 1em;
+font-size: 20px;
+padding: 0.5em 1em;
+border-radius: 5px;}
+
+.numberDrawn {
+    background-color: red;
+}
