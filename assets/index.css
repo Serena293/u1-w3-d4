@@ -38,15 +38,19 @@ h1 {
   font-weight: 700;
 }
 
-#selectNumber{
+#selectNumber, #playerCard{
     margin-top: 2em;
 }
 
-#selectNumberBtn{ margin-top: 1em;
+button { margin-top: 1em;
 font-size: 20px;
 padding: 0.5em 1em;
 border-radius: 5px;}
 
 .numberDrawn {
     background-color: red;
+}
+
+#playerCard{
+    width: 25%;
 }
