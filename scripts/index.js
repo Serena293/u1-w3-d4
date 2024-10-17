@@ -1,5 +1,7 @@
 const tableTombola = document.getElementById("tombola");
 const selectNumberBtn = document.getElementById("selectNumberBtn");
+const numbersAlreadyDrawn = []
+
 
 const createTable = () => {
   for (let i = 1; i <= 76; i++) {
@@ -21,10 +23,11 @@ const pickNumber = () => {
     }
   }
 
- 
+ numbersAlreadyDrawn.push(selectedNumber)
 
   console.log("pulsante premuto", selectedNumber);
 };
+
 
 
 
